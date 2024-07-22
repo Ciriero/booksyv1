@@ -1,18 +1,40 @@
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  AddBook,
+  Admin,
+  AllBooks,
+  DashboardLy,
+  DeleteBook,
+  EditBook,
+  Error,
+  HomeLy,
+  Login,
+  Profile,
+  Register,
+  Stats,
+} from "./pages";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <h1>HOME</h1>
+    element: <HomeLy />,
   },
   {
-    path: "/about",
-    element: <h5>About</h5>
-  }
-])
+    path: "/register",
+    element: <Register />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/dashboard",
+    element: <DashboardLy />,
+  },
+]);
 
 const App = () => {
-  return <RouterProvider router={router}/>
-}
+  return <RouterProvider router={router} />;
+};
 
-export default App
+export default App;
