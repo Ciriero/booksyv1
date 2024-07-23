@@ -19,6 +19,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <HomeLy />,
+    errorElement: <Error />,
     children: [
       {
         index: true,
