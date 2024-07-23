@@ -1,6 +1,6 @@
 import React from "react";
 import { Wrapper } from "../styles/Landing.styles";
-import logo from "../assets/logo.svg";
+import booksy from "../assets/booksy.svg";
 import main from "../assets/main.svg"
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,7 @@ const Landing = () => {
   return (
     <Wrapper>
       <nav>
-        <img src={logo} alt="booksy" className="logo" />
+        <img src={booksy} alt="booksy" className="logo" />
       </nav>
       <div className="container page">
         <div className="info">
