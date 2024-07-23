@@ -1,9 +1,28 @@
-import React from 'react'
+import React from "react";
+import { Wrapper } from "../styles/Landing.styles";
+import logo from "../assets/logo.svg";
 
 const Landing = () => {
   return (
-    <h1>Landing</h1>
-  )
-}
+    <Wrapper>
+      <nav>
+        <img src={logo} alt="booksy" className="logo" />
+      </nav>
+      <div className="container page">
+        <div className="info">
+          <h1>
+            Books <span>store</span> app
+          </h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
+            aliquid quae facilis at cupiditate, est porro minus. Accusamus,
+            consectetur. Labore rem odit accusamus necessitatibus delectus
+            distinctio? Non in ipsam officia!
+          </p>
+        </div>
+      </div>
+    </Wrapper>
+  );
+};
 
-export default Landing
+export default Landing;
