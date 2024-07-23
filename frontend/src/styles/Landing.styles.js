@@ -21,7 +21,7 @@ export const Wrapper = styled.section`
     span {
       color: var(--primary-500);
     }
-    margin-bottom: 1.543m;
+    margin-bottom: 1.5rem;
   }
 
   p {
