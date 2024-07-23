@@ -12,24 +12,31 @@ import {
   Profile,
   Register,
   Stats,
+  Landing
 } from "./pages";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomeLy />,
-  },
-  {
-    path: "/register",
-    element: <Register />,
-  },
-  {
-    path: "/login",
-    element: <Login />,
-  },
-  {
-    path: "/dashboard",
-    element: <DashboardLy />,
+    children: [
+      {
+        index: true,
+        element: <Landing />
+      },
+      {
+        path: "register",
+        element: <Register />,
+      },
+      {
+        path: "login",
+        element: <Login />,
+      },
+      {
+        path: "dashboard",
+        element: <DashboardLy />,
+      },
+    ],
   },
 ]);
 

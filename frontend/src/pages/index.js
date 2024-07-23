@@ -1,12 +1,13 @@
-export {default as AddBook} from "./AddBook";
-export {default as Admin} from "./Admin";
-export {default as AllBooks} from "./AllBooks";
-export {default as DashboardLy} from "./DashboardLy";
-export {default as DeleteBook} from "./DeleteBook"
-export {default as EditBook} from "./EditBook";
-export {default as Error} from "./Error";
-export {default as HomeLy} from "./HomeLy";
-export {default as Login} from "./Login"
-export {default as Profile} from "./Profile";
-export {default as Register} from "./Register";
-export {default as Stats} from "./Stats"
+export { default as AddBook } from "./AddBook";
+export { default as Admin } from "./Admin";
+export { default as AllBooks } from "./AllBooks";
+export { default as DashboardLy } from "./DashboardLy";
+export { default as DeleteBook } from "./DeleteBook";
+export { default as EditBook } from "./EditBook";
+export { default as Error } from "./Error";
+export { default as HomeLy } from "./HomeLy";
+export { default as Login } from "./Login";
+export { default as Profile } from "./Profile";
+export { default as Register } from "./Register";
+export { default as Stats } from "./Stats";
+export { default as Landing } from "./Landing";
