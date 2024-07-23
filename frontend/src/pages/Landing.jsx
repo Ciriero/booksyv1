@@ -1,6 +1,8 @@
 import React from "react";
 import { Wrapper } from "../styles/Landing.styles";
 import logo from "../assets/logo.svg";
+import main from "../assets/main.svg"
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -19,7 +21,14 @@ const Landing = () => {
             consectetur. Labore rem odit accusamus necessitatibus delectus
             distinctio? Non in ipsam officia!
           </p>
+          <Link to="/register" className="btn register-link">
+          Register
+          </Link>
+          <Link to="/login" className="btn">
+          Login
+          </Link>
         </div>
+        <img src={main} alt="booksy" className="img main-img"/>
       </div>
     </Wrapper>
   );
