@@ -43,6 +43,9 @@ export const Wrapper = styled.section`
     padding: 0.75rem;
   }
   @media (min-width: 992px) {
+   nav{ 
+    justify-content: flex-end;
+   }
     .page {
       grid-template-columns: 1fr 400px;
       column-gap: 3rem;

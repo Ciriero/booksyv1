@@ -14,7 +14,7 @@ const Landing = () => {
       <div className="container page">
         <div className="info">
           <h1>
-            Books <span>store</span> app
+        <span>    Books</span> store app
           </h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
