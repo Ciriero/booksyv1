@@ -5,7 +5,7 @@ const HomeLy = () => {
   return (
 <div>
 
-  <nav>Navbar</nav>
+  {/* <nav>Navbar</nav> */}
   <Outlet />
 </div>
   )
