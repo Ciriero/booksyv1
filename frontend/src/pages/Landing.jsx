@@ -1,7 +1,7 @@
 import React from "react";
 import { Wrapper } from "../styles/Landing.styles";
 import booksy from "../assets/booksy.svg";
-import main from "../assets/main.svg"
+import main from "../assets/main.svg";
 import { Link } from "react-router-dom";
 import { Logo } from "../components";
 
@@ -9,12 +9,12 @@ const Landing = () => {
   return (
     <Wrapper>
       <nav>
-      <Logo />
+        <Logo />
       </nav>
       <div className="container page">
         <div className="info">
           <h1>
-        <span>    Books</span> store app
+            Books <span> store</span> app
           </h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
@@ -23,13 +23,13 @@ const Landing = () => {
             distinctio? Non in ipsam officia!
           </p>
           <Link to="/register" className="btn register-link">
-          Register
+            Register
           </Link>
           <Link to="/login" className="btn">
-          Login
+            Login
           </Link>
         </div>
-        <img src={main} alt="booksy" className="img main-img"/>
+        <img src={main} alt="booksy" className="img main-img" />
       </div>
     </Wrapper>
   );
